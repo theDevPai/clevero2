@@ -1,0 +1,92 @@
+.about {
+    margin: 100px auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    width: 90%;
+  }
+  
+  .about-left {
+    flex: 1 1 48%; /* Flex-grow, flex-shrink, and flex-basis */
+    position: relative;
+    max-width: 48%;
+  }
+  
+  .about-right {
+    flex: 1 1 50%;
+    max-width: 48%;
+  }
+  
+  .about-img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .play-icon {
+    width: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .about h3 {
+    font-weight: 600;
+    font-size: 16px; /* Corrected property */
+    color: #212EA0;
+  }
+  
+  .about h2 {
+    font-size: 35px;
+    color: #000F38;
+    margin: 10px 0;
+    max-width: 400px;
+  }
+  
+  .about p {
+    color: #676767;
+    margin-bottom: 15px;
+  }
+  
+  /*-----------media query--------*/
+  @media (max-width: 800px) {
+    .about {
+      flex-direction: column;
+      align-items: center; /* Center align items in column direction */
+    }
+  
+    .about-left,
+    .about-right {
+      flex: 1 1 100%;
+      max-width: 100%;
+      margin-right: 0; /* Remove right margin on smaller screens */
+      margin-bottom: 20px; /* Add bottom margin to separate sections */
+    }
+  
+    .about-left {
+      order: 2; /* Ensure the video comes second on smaller screens */
+    }
+  }
+  
+  .video-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000; /* Background color to make sure it's visible */
+  }
+  
+  .background-image {
+    background-image: url('../../assets/about.png'); /* Adjust the path as needed */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .play-icon {
+    cursor: pointer;
+    z-index: 1;
+  }
+  
