@@ -41,7 +41,6 @@ const Contact = () => {
             <p>To learn more about how planting trees can enhance oxygen production on your land and explore our extensive database of tree species and their oxygen output.</p>
             <ul>
                 <li><img src={mail} alt="" />contact@clevero2.com</li>
-                <li><img src={phone} alt="" />+91 6362117693</li>
                 <li><img src={location} alt="" />Bangalore, India<br />London, United Kingdom</li>
             </ul>
         </div>
