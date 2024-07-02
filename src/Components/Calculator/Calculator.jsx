@@ -60,13 +60,13 @@ const Campus = () => {
           <tbody>
             {currentItems.map((item) => (
               <tr key={item.Sl}>
-                <td>{item.Sl}</td>
+                <td>{item["Sl No."]}</td>
                 <td>{item["Scientific Name"]}</td>
                 <td>{item["Common Name"]}</td>
                 <td>{item["CO2 Absorption kg/year"]}</td>
                 <td>{item["O2 released per year kg/year"]}</td>
                 <td>{item["Distance Between Trees (ft)"]}</td>
-                <td>{item["Growth Time for Full Growth"]}</td>
+                <td>{item["Time (Years) for Full Growth"]}</td>
                 <td>{item["Number of Trees Per acre"]}</td>
                 <td>{item.Region}</td>
                 <td>{item["Tree Size"]}</td>
