@@ -42,7 +42,7 @@ const Contact = () => {
             <ul>
                 <li><img src={mail} alt="" />contact@clevero2.com</li>
                 <li><img src={phone} alt="" />+91 6362117693</li>
-                <li><img src={location} alt="" />#XXX, Xth Cross <br /> XXXX , Bangalore, Karnataka - 5600XX</li>
+                <li><img src={location} alt="" />Bangalore, India<br />London, United Kingdom</li>
             </ul>
         </div>
         <div className="contact-col">
