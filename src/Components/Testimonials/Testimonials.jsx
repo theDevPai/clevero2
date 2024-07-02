@@ -14,13 +14,13 @@ const Testimonials = () => {
 
 const slideForward = () => {
     if(tx > -50){
-        tx -= 25;
+        tx -= 50;
     }
     slider.current.style.transform = `translateX(${tx}%)`
 }
 const slideBackward = () => {
     if(tx < 0){
-        tx += 25;
+        tx += 50;
     }
     slider.current.style.transform = `translateX(${tx}%)`
 }
