@@ -32,10 +32,10 @@ const About = () => {
       <div className="about-right">
         <h3>About CleverO<sub>2</sub></h3>
         <h2>Nurturing Tomorrow's Environment Today</h2>
-        <p>In non irure fugiat incididunt eiusmod minim in sit duis. Reprehenderit anim sint elit cupidatat sunt irure est pariatur et consectetur nostrud excepteur nulla. Ex quis deserunt dolor ullamco dolore. Anim tempor culpa duis adipisicing. Irure proident quis tempor commodo magna dolore.</p>
-        <p>Id sunt deserunt ea ad quis magna minim culpa aute sunt aliqua quis aute. Sunt laboris eu laborum dolore officia dolor. Exercitation anim adipisicing reprehenderit consequat et cillum cupidatat adipisicing anim laboris nisi ipsum culpa velit. In irure dolore incididunt enim ullamco consequat. Irure sint aliquip aliquip ipsum proident sint nostrud ipsum occaecat veniam excepteur.</p>
-        <p>Proident sunt fugiat proident irure enim aute. Amet minim mollit nisi excepteur Lorem culpa magna. Id voluptate magna deserunt ex mollit magna aliquip mollit aliquip veniam.</p>
-      </div>
+<p>CleverO2 is an innovative platform dedicated to providing detailed information on the carbon sequestration capabilities of various tree species. The idea was born out of my passion for ESG management. While analyzing data one day, we pondered the impact of planting an acre of a specific tree species on carbon sequestration and oxygen release. This thought led to the creation of a comprehensive repository.</p>
+<p>Our database includes hundreds of tree species from around the world, detailing their carbon absorption and oxygen release rates. By calculating the number of trees that can be planted per acre, users can estimate the environmental impact of their reforestation efforts under optimal conditions. This information is invaluable for individuals, organizations, and policymakers looking to make informed decisions about tree planting and carbon offset projects.</p>
+<p>The website was brought to life by two friends: a computer science engineer who designed and developed the platform, and a mechanical engineer and ESG Analyst who compiled the extensive database. CleverO2 aims to be a vital resource in the fight against climate change, helping users understand and leverage the power of afforestation to reduce carbon footprints and enhance sustainability. Explore our site to discover how different tree species can contribute to a healthier, more sustainable planet.</p>
+        </div>
     </div>
   );
 }
