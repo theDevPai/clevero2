@@ -40,7 +40,7 @@ const slideBackward = () => {
                                 <span>King's College, London, UK</span>
                             </div>
                         </div>
-                        <p>"The CleverO2 website is a game-changer for ESG analysts like myself. It offers a comprehensive database of trees worldwide, making it effortless to find specific data for carbon emission reduction and removal calculations. This tool significantly simplifies the assessment of afforestation projects, ensuring precise and efficient evaluations."
+                        <p>"CleverO2 platform is a game-changer for ESG  enthusiasts. It offers a comprehensive database of crops intel worldwide, making it effortless to find specific data for carbon emission reduction and removal calculations. This tool significantly simplifies the assessment of afforestation projects, ensuring precise and efficient evaluations."
 </p>
                     </div>
                 </li>
